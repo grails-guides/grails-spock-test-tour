@@ -17,12 +17,6 @@
 
 - [Grails Scaffolding documentation](https://grails.apache.org/docs/snapshot/guide/scaffolding.html)
 
-## Feature geb-with-webdriver-binaries documentation
-
-- [Grails Geb Functional Testing using WebDriver binaries Gradle plugin documentation](https://github.com/apache/grails-geb#readme)
-
-- [https://groovy.apache.org/geb/manual/current/](https://groovy.apache.org/geb/manual/current/)
-
 ## Feature testcontainers documentation
 
 - [https://java.testcontainers.org/](https://java.testcontainers.org/)
