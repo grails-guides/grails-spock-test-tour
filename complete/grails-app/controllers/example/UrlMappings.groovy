@@ -2,6 +2,7 @@ package example
 
 class UrlMappings {
     static mappings = {
+        "/books"(resources: 'book')
         "/$namespace/$controller/$action?/$id?(.$format)?" {}
         "/$controller/$action?/$id?(.$format)?"{
             constraints {
