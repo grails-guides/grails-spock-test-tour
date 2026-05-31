@@ -21,5 +21,7 @@ jobs:
           java-version: 21
           distribution: temurin
       - uses: gradle/actions/setup-gradle@v4
-      - run: ./gradlew test integrationTest --console=plain --stacktrace
+      - run: |
+          chmod +x gradlew
+          ./gradlew test integrationTest --console=plain --stacktrace
         working-directory: ${{ matrix.sample }}
